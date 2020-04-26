@@ -26,6 +26,7 @@
                             <mainClass>pl.edu.agh.mwo.hellomaven.App</mainClass>
                         </manifest>
                     </archive>
+                    <finalName>hello-maven-0.1-demo</finalName>
                 </configuration>
             </plugin>
             <!-- Automatically packages all the project dependencies in the resulting JAR file. -->
@@ -89,7 +90,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.12</version>
+            <version>4.13</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
